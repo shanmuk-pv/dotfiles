@@ -1,0 +1,64 @@
+[window]
+dimensions = { columns = 120, lines = 30 }
+
+decorations = "full"
+startup_mode = "Windowed"
+opacity = 0.85
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[font]
+size = 10.0
+
+[font.normal]
+family = "Monospace"
+style = "Regular"
+
+[font.bold]
+family = "Monospace"
+style = "Bold"
+
+[font.italic]
+family = "Monospace"
+style = "Italic"
+
+[cursor]
+style = "Block"
+# blinking = "On"  # REMOVED - not supported
+
+[mouse]
+hide_when_typing = true
+
+[colors.primary]
+background = "#1a1a1a"
+foreground = "#ffffff"  # PURE WHITE - maximum brightness
+
+[colors.normal]
+black = "#000000"
+red = "#ff6b6b"        # Bright red
+green = "#6bff6b"      # Bright green  
+yellow = "#ffff6b"     # Bright yellow
+blue = "#6b6bff"       # Bright blue
+magenta = "#ff6bff"    # Bright magenta
+cyan = "#6bffff"       # Bright cyan
+white = "#ffffff"      # Bright white
+
+[colors.bright]
+black = "#666666"
+red = "#ff9999"        # Even brighter red
+green = "#99ff99"      # Even brighter green
+yellow = "#ffff99"     # Even brighter yellow
+blue = "#9999ff"       # Even brighter blue
+magenta = "#ff99ff"    # Even brighter magenta
+cyan = "#99ffff"       # Even brighter cyan
+white = "#ffffff"      # Pure white
+
+[selection]
+save_to_clipboard = true
+
+[bell]
+animation = "EaseOutExpo"
+duration = 0
+color = "#ffffff"
