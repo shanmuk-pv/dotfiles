@@ -103,7 +103,7 @@ interval=5
 [cpu_usage]
 command=$SCRIPT_DIR/cpu_usage
 #full_text=🖳
-interval=1
+interval=5
 #min_width=CPU 100.00%
 separator=true
 
@@ -129,7 +129,8 @@ interval=30
 # Date Time
 #
 [time_date]
-command=date '+%d-%m %I:%M %p'
+#command=date '+%d-%m %I:%M %p'
+command=date '+%a %d-%m %I:%M %p'
 #command=date '+%Y-%m-%d %I:%M:%S %p'
 #command=date '+%Y-%m-%d %H:%M:%S'
 #command=date'%D-%M-%Y %H:%M:%S'
